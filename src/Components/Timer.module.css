@@ -1,0 +1,51 @@
+
+.time{
+    width: 450px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.box{
+    width: 450px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.box input{
+    width: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.start{
+    color: white;
+    background-color: blue;
+}
+
+.stop{
+    color: white;
+    background-color: red;
+}
+
+.reset{
+    color: white;
+    background-color: black;
+}
+
+.b button{
+    margin-right: 5px;
+}

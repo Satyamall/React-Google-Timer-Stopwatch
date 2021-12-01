@@ -1,0 +1,23 @@
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  border: 2px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.timer{
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.stopwatch{
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
