@@ -20,6 +20,7 @@
     justify-content: center;
     background-color: black;
     color: white;
+    margin-bottom: 20px;
 }
 
 .box input{
@@ -46,6 +47,9 @@
     background-color: black;
 }
 
+.b{
+    border-top: 2px solid gray;
+}
 .b button{
     margin-right: 5px;
 }

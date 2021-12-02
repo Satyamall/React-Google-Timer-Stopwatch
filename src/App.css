@@ -1,4 +1,7 @@
 
+.h-tag{
+  text-align: center;
+}
 
 .App{
   display: flex;
@@ -10,10 +13,33 @@
   margin: auto;
   margin-top: 20px;
   padding-bottom: 20px;
+  background-color: aliceblue;
 }
 
+.button-box{
+  width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.button-box button{
+  font-size: 25px;
+  color:white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.button-box button:hover{
+  background-color: aqua;
+}
 .timer{
-  padding: 10px;
+  padding: 10px 0px 10px;
   border-bottom: 2px solid gray;
 }
 
