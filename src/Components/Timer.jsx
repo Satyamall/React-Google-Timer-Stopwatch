@@ -14,8 +14,14 @@ export default function Timer() {
         var idsec = null
         if (timeOn) {
             idsec = setInterval(() => {
-                setSec((prev) => prev - 1)
-                if (sec === 0) {
+                if(sec<=0)
+                {
+                    setSec(0);
+                }
+                else{
+                    setSec((prev) => prev - 1)
+                }
+                if (sec < 0) {
                     clearInterval(idsec);
                 }
             }, 1000)
